@@ -44,7 +44,6 @@ const DumpData = ({fields, tables, sheetName}) => {
             <ExcelFile element={<button>Download Data</button>}>
                 <ExcelSheet data={dataSet} name={sheetName ? sheetName : "Data"}>
                     {Object.keys(dataSet[0]).map((key, index) => {
-                        console.log(key)
                         return <ExcelColumn label={key} value={key} key={key}/>
                     })}
                 </ExcelSheet>

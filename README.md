@@ -3,6 +3,7 @@
 Attempt to dump data from a dashboard
 
 ## Supported Data Formats:
+Excel File. Dimensions and Metrics Supported
 
 ## Getting Started:
 yarn
@@ -19,4 +20,4 @@ yarn start
 
 ## Credits
 Forked from: anvilinsights/data-studio-react-starter
-
+Uses React Export Excel: rdcalle/react-export-excel
