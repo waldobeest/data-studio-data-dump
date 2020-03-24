@@ -1,8 +1,8 @@
 {
   "data": [
     {
-      "id": "nivoReact",
-      "label": "A toolbox for Nivo Charts",
+      "id": "dataDump",
+      "label": "A toolbox for React Data Dump",
       "elements": [
         {
           "id": "dimID",

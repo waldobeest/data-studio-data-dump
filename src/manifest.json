@@ -1,7 +1,7 @@
 {
-  "name": "Nivo React Chart",
+  "name": "Vantage Data Dump",
   "organization": "Viewmetrics",
-  "description": "A toolbox for Nivo Charts",
+  "description": "A toolbox for Data Dump",
   "logoUrl": "",
   "organizationUrl": "https://viewmetrics.co.za",
   "supportUrl": "",
@@ -9,9 +9,9 @@
   "devMode": true,
   "components": [
     {
-      "id": "nivoReact",
-      "name": "Nivo React Chart",
-      "description": "A toolbox for Nivo Charts",
+      "id": "dataDump",
+      "name": "Vantage Data Dump",
+      "description": "A toolbox for Vantage Data Dump",
       "iconUrl": "",
       "resource": {
         "js": "YOUR_GCS_BUCKET/index.js",

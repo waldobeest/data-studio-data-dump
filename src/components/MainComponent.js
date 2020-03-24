@@ -10,9 +10,7 @@ const MainComponent = props => {
 
     return (
         <React.Fragment>
-            <div style={{height: 600, width: 600}}>
-                <DataDump {...props} />
-            </div>
+            <DataDump {...props} />
         </React.Fragment>
     );
 };
