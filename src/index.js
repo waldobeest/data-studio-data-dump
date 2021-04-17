@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { css, Global, jsx } from '@emotion/core'
+import { css, Global, jsx } from '@emotion/react'
 import * as dscc from '@google/dscc'
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
