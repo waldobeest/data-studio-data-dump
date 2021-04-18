@@ -9,6 +9,15 @@ Excel File. Dimensions and Metrics Supported
 yarn
 yarn start
 
+## To populate local test data:
+Edit Main Component to return:
+
+return <div>{JSON.stringify(props)}</div>;
+Copy Value from report in GDS, and save in localData.json
+
+This is consumed in index.js
+const localData = require('./localData.json');
+
 ## ASIS: Build Process:
 1. yarn build:dev
 2. copy files from /build into your gs:// location

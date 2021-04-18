@@ -30,8 +30,10 @@ class AppComponent extends React.Component {
 
   componentDidMount() {
     if (LOCAL) {
-      const local = require('./localMessage.js')
-      this.handleDataUpdate(local.message)
+      // This is from GDS. You can get this example export by deploying and then making the MainComponent return
+      // return <div>{JSON.stringify(props)}</div>;
+      const localData = require('./localData.json');
+      this.handleDataUpdate(localData)
     } else {
       dscc.subscribeToData(data => this.handleDataUpdate(data), {
         transform: dscc.objectTransform,
