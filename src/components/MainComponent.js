@@ -8,6 +8,12 @@ const MainComponent = props => {
         return <div>Loading...</div>;
     }
 
+    // return <div>{JSON.stringify(props)}</div>;
+
+    // GDS does not allow access to localStorage
+    // GDS does not allow access to  window.parent.document.dispatchEvent(event)
+    // GDS does allow access to window.location.href
+
     return (
         <React.Fragment>
             <DataDump {...props} />
