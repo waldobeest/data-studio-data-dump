@@ -33,7 +33,7 @@
     "d3-format": "2.0.0",
     "d3-webpack-loader": "0.1.1",
     "lodash.template": "4.5.0",
-    "minimist": "1.2.5",
+    "minimist": "1.2.6",
     "prop-types": "15.7.2",
     "react": "17.0.2",
     "react-d3-library": "1.1.8",
